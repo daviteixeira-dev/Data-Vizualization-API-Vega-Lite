@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Visualização de Dados - Vega-Lite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+        --bg: #f8fafc;
+        --text: #1e293b;
+        --accent: #2563eb;
+        --card-bg: #ffffff;
+        --shadow: rgba(0, 0, 0, 0.08);
+    }
+
+    body {
+        margin: 0;
+        padding: 2rem;
+        line-height: 1.6;
+        color: var(--text);
+        background-color: var(--bg);
+        font-family: 'Inter', Arial, sans-serif;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 3rem;
+        color: var(--accent);
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        color: var(--accent);
+    }
+
+    .grafico-container {
+        padding: 1.5rem;
+        border-radius: 12px;
+        margin-bottom: 2.5rem;
+        background-color: var(--card-bg);
+        box-shadow: 0 4px 12px var(--shadow);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    iframe {
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+    }
+
+    footer {
+        color: #64748b;
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Visualização de Dados - Vega-Lite</h1>
+
+  <h2>Exercício 1 — Gráfico de Barras</h2>
+  <section class="grafico-container">
+    <iframe 
+      height="568"
+      src="https://observablehq.com/embed/6e7ec3d7f0614f9c@155?cells=gr%C3%A1fico_de_barras">
+    </iframe>
+  </section>
+
+  <h2>Exercício 2 — Scatterplots por Gênero</h2>
+  <section class="grafico-container">
+    <iframe 
+      height="442"
+      src="https://observablehq.com/embed/6e7ec3d7f0614f9c@156?cells=Scatterplots_por_Genero">
+    </iframe>
+  </section>
+
+  <footer>
+    Criado por Davi Teixeira — Mestrado em Ciência da Computação (UFC)
+  </footer>
+</body>
+</html>
